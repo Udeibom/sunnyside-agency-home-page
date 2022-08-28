@@ -37,12 +37,15 @@ body {
     box-shadow: none;
 }
 #child {
-    font-size: 11.5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
 }
 
 #contacts {
     background-color: hsl(0, 0%, 100%);
     color: hsl(212, 27%, 19%);
+    padding-top: 7px;
 }
 #contacts:hover {
     background-color: hsl(199, 100%, 70%);
