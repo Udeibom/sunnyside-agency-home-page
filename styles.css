@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    font-size: 18px;
+}
+#mom {
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+  }
+  
+  #mom:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 80px solid yellow;
+    border-top: 80px solid white;
+    width: 100%;
+  }
+#head-section {
+    overflow-y: hidden;
+    background-image: url("./images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+#child {
+    font-size: 11.5px;
+}
+
+#contacts {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(212, 27%, 19%);
+}
+#contacts:hover {
+    background-color: hsl(199, 100%, 70%);
+    color: white;
+}
+#contactsa {
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    color: hsl(212, 27%, 19%);
+}
+#contactsa:hover {
+    color: hsl(212, 27%, 19%);
+}
+/*The heading in first section*/
+#create {
+    font-family: 'Fraunces', serif;
+    overflow-y: hidden;
+}
+
+#yellowHover {
+    display: none;
+}
+
+#brownHover {
+    display: none;
+}
+/*The image on the second section*/
+/*#firsti {
+    background-image: url("./images/desktop/image-transform.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+/*learn more effect*/
+#learn {
+    position: absolute;
+    top: -10%;
+    font-size: 12px;
+    color: hsl(212, 27%, 19%);
+    z-index: 1;
+}
+
+/*overlay effect*/
+#overlay {
+    height: 7px;
+    width: 6.3rem;
+    background-color: hsl(51, 100%, 49%);
+}
+
+#contact1 {
+    color: hsl(168, 34%, 41%);
+}
+
+#contact1:hover {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#contact2 {
+    color: hsl(168, 34%, 41%);
+}
+
+#contact2:hover {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+
+#contact {
+    color: hsl(168, 34%, 41%);
+}
+
+#contact:hover {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#face2 {
+    display: none;
+    cursor: pointer;
+}
+
+#insta2 {
+    display: none;
+    cursor: pointer;
+}
+
+#twit2 {
+    display: none;
+    cursor: pointer;
+}
+
+#pin2 {
+    display: none;
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    #text {
+        position: absolute;
+        left: 70%;
+    }
+}
+#checker {
+    display: none;
+    height: 50px;
+}
+@media screen and (max-width: 768px) {
+    #head-section {
+        background-image: url("./images/mobile/image-header.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 40rem;
+    }
+    #check {
+        position: relative;
+        background-color: white;
+        width: 96%;
+    }
+    #checker {
+        display: block;
+        position: relative;
+        background-color: white;
+        width: 96%;
+    }
+    #checker:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-right: 49px solid white;
+        border-top: 49px solid #3ebffe;
+        height: 50px;
+        width: 100%;
+      }
+    #child {
+        color: grey;
+        font-family: 'Barlow', sans-serif;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+    #contacts {
+        width: 35%;
+        align-self: center;
+    }
+
+    #contacts:hover {
+        background-color: hsl(51, 100%, 49%);
+    }
+    #arrow {
+        margin-bottom: -50%;
+        padding-bottom: -50%;
+    }
+    #cover-up {
+        display: none;
+        padding-bottom: -50%;
+    }
+}
